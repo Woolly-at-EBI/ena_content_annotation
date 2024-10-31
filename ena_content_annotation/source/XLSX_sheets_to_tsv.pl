@@ -35,7 +35,7 @@ def read_excel(infile):
         logger.info(sheet)
         df = sheet_dataframes[sheet]
         logger.debug(df.head())
-        outfile_name = directories + "/" + sheet.replace(" ", "_") + ".xlsx"
+        outfile_name = directories + "/" + sheet.replace(" ", "_") + ".tsv"
         logger.debug(f"{outfile_name}")
         df.to_csv(outfile_name, sep="\t", index=False)
         logger.info(f"created: {outfile_name}")
