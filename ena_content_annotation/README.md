@@ -7,7 +7,7 @@ These are a bunch off annotation files to use to decorate ENA exports.
 INSDC Countries + Geography.xlsx  - as a multisheet spreadsheet
 
 This data came from CIA Factbook and UN WHO web pages.
-These were collected in July 2024 by Samuel Woollard during his work experience.
+These were collected in July 2024 by Samuel Woollard during his work experience week.
 
 ### GDP.tsv
 | INSDC_country            |     GDP ($) |   Population |   GDP per capita ($) | Income Level   |   Year | Note |
@@ -28,10 +28,10 @@ These were collected in July 2024 by Samuel Woollard during his work experience.
 | Andorra         | Europe      |               468 |                            0 | Northern     |                       7.17 | Temperate       |
 
 ### country_list.tsv
-| INSDC_country   | UN Country   | Note                                                                                                  | country_or_ocean   |
-|:----------------|:-------------|:------------------------------------------------------------------------------------------------------|:-------------------|
-| Afghanistan     | Afghanistan  | nan                                                                                                   | country            |
-| Albania         | Albania      | nan                                                                                                   | country            |
-| Algeria         | Algeria      | nan                                                                                                   | country            |
-| American Samoa  | nan          | n/a- country is not recognised by UN, it is owned by another country or no country officially owns it | country            |
-| Andorra         | Andorra      | nan                                                                                                   | country            |
+| INSDC_country   | UN Country  | Note                                                                                                  | country_or_ocean   |
+|:----------------|:------------|:------------------------------------------------------------------------------------------------------|:-------------------|
+| Afghanistan     | Afghanistan |                                                                                                       | country            |
+| Albania         | Albania     |                                                                                                       | country            |
+| Algeria         | Algeria     |                                                                                                       | country            |
+| American Samoa  |             | n/a- country is not recognised by UN, it is owned by another country or no country officially owns it | country            |
+| Andorra         | Andorra     |                                                                                                       | country            |
