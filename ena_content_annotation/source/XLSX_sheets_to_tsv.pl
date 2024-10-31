@@ -34,7 +34,7 @@ def read_excel(infile):
     for sheet in sheet_dataframes:
         logger.info(sheet)
         df = sheet_dataframes[sheet]
-        logger.debug(df.head())
+        print(df.head(5).to_markdown(index=False))
         outfile_name = directories + "/" + sheet.replace(" ", "_") + ".tsv"
         logger.debug(f"{outfile_name}")
         df.to_csv(outfile_name, sep="\t", index=False)
